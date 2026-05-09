@@ -219,7 +219,7 @@ Think Optimisation:
 
 
 Conclude/Infer:
-----------------------------------------
+--------------------------------------------
 UNDERSTANDING COMMAND LINE ARGUMENTS:
 
 import sys
