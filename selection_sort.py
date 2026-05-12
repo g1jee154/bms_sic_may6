@@ -1,5 +1,7 @@
 import sys
 import selection_sort_demo
 
-result=selection_sort_demo.selection(sys.argv[1:])
+numbers = [int (value) for value in sys.argv[1:]]
+
+result=selection_sort_demo.selection(numbers)
 print("sorted list: ",result)

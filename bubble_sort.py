@@ -1,5 +1,7 @@
 import sys
 import bubble_sort_demo
 
-result = bubble_sort_demo.bubble_sort(sys.argv[1:])
+numbers = [int(value) for value in sys.argv[1:]]
+
+result = bubble_sort_demo.bubble_sort(numbers)
 print("Sorted array is:", result)
